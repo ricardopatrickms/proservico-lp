@@ -1,0 +1,10 @@
+<x-layouts.landing>
+    @include('partials.hero')
+    @include('partials.categories')
+    @include('partials.how-it-works')
+    @include('partials.features')
+    @include('partials.security')
+    @include('partials.professionals')
+    @include('partials.faq')
+    @include('partials.cta')
+</x-layouts.landing>
