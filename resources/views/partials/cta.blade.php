@@ -18,10 +18,7 @@
                 <p class="mt-3 text-[0.9375rem] leading-relaxed text-muted">
                     Publique sua solicitação em quatro etapas e receba propostas de profissionais verificados perto de você.
                 </p>
-                <div class="mt-auto flex flex-wrap gap-3 pt-8">
-                    <a href="#" class="btn btn-primary">Sou cliente</a>
-                    <a href="#" class="btn btn-outline">Entrar</a>
-                </div>
+                <x-store-links google="primary" apple="outline" class="mt-auto pt-8" />
             </article>
 
             <article class="flex flex-col rounded-[1.75rem] bg-accent-500 p-8 shadow-[0_40px_80px_-40px_rgba(229,57,53,0.8)]"
@@ -33,10 +30,7 @@
                 <p class="mt-3 text-[0.9375rem] leading-relaxed text-white/75">
                     Cadastre-se, envie seus documentos e comece a receber pedidos abertos na sua região assim que for aprovado.
                 </p>
-                <div class="mt-auto flex flex-wrap gap-3 pt-8">
-                    <a href="#" class="btn btn-white">Sou profissional</a>
-                    <a href="#" class="btn btn-outline-invert">Entrar</a>
-                </div>
+                <x-store-links google="white" apple="outline-invert" class="mt-auto pt-8" />
             </article>
         </div>
 

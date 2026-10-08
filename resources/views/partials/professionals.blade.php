@@ -34,11 +34,8 @@
                 @endforeach
             </dl>
 
-            <div class="mt-11 flex flex-col gap-3 sm:flex-row" data-reveal>
-                <a href="#comecar" class="btn btn-white">
-                    Criar conta de profissional
-                    <x-icon name="arrow-right" class="size-4" />
-                </a>
+            <div class="mt-11 flex flex-col gap-3 sm:flex-row sm:items-center" data-reveal>
+                <x-store-links google="white" apple="outline-invert" />
                 <a href="#seguranca" class="btn btn-outline-invert">Ver o que é exigido</a>
             </div>
         </div>

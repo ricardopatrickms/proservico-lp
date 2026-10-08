@@ -12,7 +12,7 @@
 
         {{-- Coluna de texto --}}
         <div class="lg:col-span-6 xl:col-span-6">
-            <span class="eyebrow eyebrow-invert" data-reveal>App + painel web · Brasil</span>
+            <span class="eyebrow eyebrow-invert" data-reveal>App Android e iOS · Brasil</span>
 
             <h1 class="display mt-6 text-[2.75rem] text-white sm:text-6xl xl:text-[4.25rem]" data-reveal style="--reveal-delay:60ms">
                 Conectando quem&nbsp;precisa

@@ -25,12 +25,8 @@
             @endforeach
         </nav>
 
-        <div class="hidden items-center gap-3 md:flex">
-            <a href="#comecar" class="btn btn-sm btn-outline-invert">Entrar</a>
-            <a href="#comecar" class="btn btn-sm btn-primary">
-                Criar conta
-                <x-icon name="arrow-right" class="size-4" />
-            </a>
+        <div class="hidden md:block">
+            <x-store-links size="sm" />
         </div>
 
         <button type="button" data-nav-toggle aria-expanded="false" aria-controls="nav-mobile"
@@ -49,10 +45,7 @@
                     <a href="{{ $item['href'] }}" class="py-3.5 text-base font-medium text-white/80">{{ $item['label'] }}</a>
                 @endforeach
             </nav>
-            <div class="mt-5 grid gap-2.5">
-                <a href="#comecar" class="btn btn-primary w-full">Criar conta</a>
-                <a href="#comecar" class="btn btn-outline-invert w-full">Entrar</a>
-            </div>
+            <x-store-links layout="stack" apple="primary" google="outline-invert" class="mt-5" />
         </div>
     </div>
 </header>
