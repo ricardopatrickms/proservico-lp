@@ -18,7 +18,7 @@
                 <span class="serif block">a três quarteirões.</span>
             </h2>
             <p class="lede mt-6 max-w-lg text-white/75" data-reveal style="--reveal-delay:120ms">
-                Sem disputa de anúncio, sem pagar para aparecer. Cadastro aprovado, você entra na régua de
+                Sem disputa de anúncio. Cadastro aprovado, você entra na régua de
                 quem recebe os pedidos abertos na sua região e responde com a sua proposta.
             </p>
 
